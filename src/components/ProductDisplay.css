@@ -1,9 +1,9 @@
 .ProductDisplay {
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
   flex-wrap: wrap;
-  gap: 20px; 
-  justify-content: center; 
+  gap: 20px;
+  justify-content: center;
   padding: 20px;
 }
 
@@ -11,8 +11,8 @@
   border: 1px solid #ddd;
   padding: 10px;
   text-align: center;
-  flex: 1; 
-  min-width: 200px; 
+  flex: 1;
+  min-width: 200px;
 }
 
 .ProductItem img {
@@ -24,11 +24,40 @@
 .ProductItem p {
   margin: 10px 0;
 }
-  
-  /* Responsive styles */
-  @media (max-width: 768px) {
-    .ProductDisplay {
-      padding: 10px;
-    }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .ProductDisplay {
+    padding: 10px;
   }
-  
+}
+
+/* Existing styles for ProductDisplay.css */
+
+/* Add the following styles for the size buttons */
+.SizeButtons {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.SizeButton {
+  background-color: white;
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.SizeButton:hover {
+  background-color: #f0f0f0;
+}
+
+.SizeButton.selected {
+  background-color: #007bff; /* Blue background for the selected size */
+  color: white;
+  border: 1px solid #007bff;
+}

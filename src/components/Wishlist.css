@@ -1,0 +1,42 @@
+/* Wishlist.css */
+
+.Wishlist {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.Wishlist table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.Wishlist th,
+.Wishlist td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.Wishlist th {
+  background-color: #f2f2f2;
+}
+
+.Wishlist img {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 5px;
+}
+
+.Wishlist button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.Wishlist button:hover {
+  background-color: #45a049;
+}
