@@ -10,7 +10,7 @@ This capstone project is an enhanced e-commerce platform incorporating various f
 
 Integrated Affinidi's identity verification processes to facilitate secure user interactions. This allows users to share specific attributes or credentials without revealing unnecessary personal information, enhancing trust and security.
 
-## E-commerce Platform Features
+## E-commerce Platform Features - Extra functionalities
 
 ### 1. Size Selection for Each Item
 
